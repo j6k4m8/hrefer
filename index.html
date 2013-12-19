@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hrefer</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<style>
+		html, body {
+			padding: 10px;
+			margin: 0;
+			box-sizing: border-box;
+			font-family: sans-serif;
+			color: #000;
+		}
+
+		p {
+			padding: 5px;
+		}
+
+		pre, code {
+			background-color: #333;
+			color: #eee;
+			padding: 2px;
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<h1>How to Use Hrefer</h1>
+	<p>So you've got users with fat fingers, huh?</p>
+
+	<h2>Usage</h2>
+	<p>Just dress your website up in a suit and tie and <i>this fella</i>: <code>&lt;script src=&quot;hrefer.js&quot;&gt;&lt;/script&gt;</code>.</p>
+
+	<p>Hey cool, that was easy. Now what?</p>
+	<p>Next, instantiate a new <code>Hrefer{}</code> object like this:</p>
+	<code>
+		// Give all `a` elements inside the `body` a 'fudge-factor' of 5px.<br>
+		var h = new Hrefer('body', 'a', 5);
+	</code>
+
+	<p>The first two arguments are jQuery selectors. Have fun.</p>
+
+	<h2>Now what?</h2>
+		<p>Okay you're done.</p>
+
+	<script src="hrefer.js"></script>
+</body>
+</html>
