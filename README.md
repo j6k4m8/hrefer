@@ -7,8 +7,11 @@ Just dress your website up in a suit and tie and <i>this fella</i>: <code>&lt;sc
 Hey cool, that was easy. Now what?
 Next, instantiate a new `Hrefer{}` object like this:
 
-    // Give all `a` elements inside the `body` a 'fudge-factor' of 5px.<br>
+    // Give all `a` elements inside the `body` a 'fudge-factor' of 5px.
     var h = new Hrefer('body', 'a', 5);
+    
+    // Give all elements with the class `.fatfinger` elements inside an element, `.container` a 'fudge-factor' of 25px.
+    var h = new Hrefer('body', 'a', 25);
 
 The first two arguments are jQuery selectors. Have fun.
 
