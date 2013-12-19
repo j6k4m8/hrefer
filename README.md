@@ -11,7 +11,7 @@ Next, instantiate a new `Hrefer{}` object like this:
     var h = new Hrefer('body', 'a', 5);
     
     // Give all elements with the class `.fatfinger` elements inside an element, `.container` a 'fudge-factor' of 25px.
-    var h = new Hrefer('body', 'a', 25);
+    var h = new Hrefer('.container', '.fatfinger', 25);
 
 The first two arguments are jQuery selectors. Have fun.
 
