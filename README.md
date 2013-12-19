@@ -17,3 +17,7 @@ The first two arguments are jQuery selectors. Have fun.
 
 #Now what?
 Okay you're done.
+
+
+#Wait hang on what
+Oh yeah you need jQuery too. Sorry if that's a bother.
